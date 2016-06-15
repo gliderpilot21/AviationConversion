@@ -22,4 +22,12 @@ def kgToLb(kg):
 
 def lbToKg(lb):
     '''Umrechnung lb zu kg'''
-    return kg / 2.20462262185
+    return lb / 2.20462262185
+
+def mpsToFtps(mps):
+    '''Umrechnung m/s zu ft/min'''
+    return mps * 0.00508
+
+def ftpsToMps(ftps):
+    '''Umrechnung ft/min zu m/s'''
+    return ftps / 0.00508

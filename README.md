@@ -5,3 +5,4 @@ Currently these conversions are available:
 * km/h : kn
 * m : ft
 * kg: lb
+* m/s : ft/min
