@@ -31,3 +31,5 @@ def mpsToFtps(mps):
 def ftpsToMps(ftps):
     '''Umrechnung ft/min zu m/s'''
     return ftps / 0.00508
+
+print("Welcome to the aviation unit converter!")
