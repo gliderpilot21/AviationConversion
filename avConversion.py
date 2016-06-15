@@ -15,3 +15,5 @@ def mToFt(m):
 def ftToM(ft):
     '''Umrechnung ft zu m'''
     return ft * 0.3048
+
+print("Welcome to the aviation unit converter!")
