@@ -6,3 +6,4 @@ Currently these conversions are available:
 * m : ft
 * kg: lb
 * m/s : ft/min
+* hPa : inHg
