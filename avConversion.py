@@ -15,3 +15,11 @@ def mToFt(m):
 def ftToM(ft):
     '''Umrechnung ft zu m'''
     return ft * 0.3048
+
+def kgToLb(kg):
+    '''Umrechnung kg zu lb'''
+    return kg * 2.20462262185
+
+def lbToKg(lb):
+    '''Umrechnung lb zu kg'''
+    return kg / 2.20462262185
