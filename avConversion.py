@@ -33,3 +33,5 @@ def ftpsToMps(ftps):
     return ftps / 0.00508
 
 print("Welcome to the aviation unit converter!")
+
+print("Bitte wählen Sie aus:\n1)Geschwindigkeit\n2))Vertikale Geschwindigkeit\n3)Strecke\n4)Masse\n5)Luftdruck")
