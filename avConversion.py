@@ -32,4 +32,12 @@ def ftpsToMps(ftps):
     '''Umrechnung ft/min zu m/s'''
     return ftps / 0.00508
 
+def hpaToInhg(hpa):
+    '''Umrechnung hPa zu in Hg'''
+    return hpa / 33.8638866667
+
+def inhgToHpa(inhg):
+    '''Umrechnung inHg zu hPa'''
+    return hPa * 33.8638866667
+
 print("Welcome to the aviation unit converter!")
