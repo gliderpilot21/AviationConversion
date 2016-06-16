@@ -40,6 +40,31 @@ def inhgToHpa(inhg):
     '''Umrechnung inHg zu hPa'''
     return hPa * 33.8638866667
 
-print("Welcome to the aviation unit converter!")
 
-print("Bitte wählen Sie aus:\n1)Geschwindigkeit\n2))Vertikale Geschwindigkeit\n3)Strecke\n4)Masse\n5)Luftdruck")
+def selection():
+    print("Welcome to the aviation unit converter!")
+
+    navigation = 0
+    print("Folgende Umrechnungen sind verfügbar:\n1)Geschwindigkeit\n2)Vertikale Geschwindigkeit\n3)Strecke\n4)Masse\n5)Luftdruck")
+    navigation = input("Bitte wählen Sie aus: ")
+
+    if navigation == 1:
+        # Geschwindigkeitsumrechnung
+        pass
+    elif navigation == 2:
+        # Vertikale Geschwindigkeit Umrechnung
+        pass
+    elif navigation == 3:
+        # Streckenumrechnung
+        pass
+    elif navigation == 4:
+        # Massenumrechnung
+        pass
+    elif navigation == 5:
+        # Druckumrechnung
+        pass
+    else:
+        print("\nUngültige Eingabe! Bitte erneut versuchen\n\n")
+        selection()
+
+selection()
