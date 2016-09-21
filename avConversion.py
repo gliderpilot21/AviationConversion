@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from conversions import *
 
+#stringIn will be the input instruction. 
+# outputs int value if user input is valid integer. 
+# otherwise prints error message and calls selection() recursively
 def takeUserInput(stringIn):
     try:
         intValue = int(raw_input(stringIn))
